@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website resmi Desa Teteaji: profil, berita, potensi, dan pelayanan desa.">
+  <title>Wisata 7 bidadari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Website Wisata Sumur 7 Bidadari</span>
+      <span id="today">Melayani dengan sepenuh hati</span>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#beranda" aria-label="Beranda Desa Teteaji">
+        <div class="brand-mark">7B</div>
+        <div><strong>Wisata sumur 7 Bidadari</strong><small>Kabupaten Sidenreng Rappang</small></div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav id="mainNav">
+        <a class="nav-link active" href="#beranda">Beranda</a>
+        <a class="nav-link" href="#profil">Tentang Wisata</a>
+        <a class="nav-link nav-cta" href="#kontak">Hubungi Kami</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow light">SELAMAT DATANG DI</span>
+        <h1>Wisata Sumur 7 Bidadari</h1>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#profil">Jelajahi Desa <span>↗</span></a>
+          <a class="button button-outline" href="#berita">Informasi Terbaru</a>
+        </div>
+      <div class="hero-label">SIDENRENG RAPPANG · SULAWESI SELATAN</div>
+    </section>
+
+    <section class="quick-info">
+      <div class="container info-grid">
+        <div class="info-item"><span class="info-icon">⌂</span><div><small>Wilayah</small><strong>Desa Lainungan</strong></div></div>
+        <div class="info-item"><span class="info-icon">♧</span><div><small>Kabupaten</small><strong>Sidenreng Rappang</strong></div></div>
+        <div class="info-item"><span class="info-icon">◎</span><div><small>Provinsi</small><strong>Sulawesi Selatan</strong></div></div>
+        <div class="info-item"><span class="info-icon">♡</span><div><small>Semangat Kami</small><strong>Gotong Royong</strong></div></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="profil">
+      <div class="container two-col">
+        <div class="about-visual">
+          <img src="https://shimiyasan.github.io/Beranda/2.jpeg" alt="Hamparan lahan pertanian dan pemandangan pedesaan">
+          <div class="image-caption"><span>⛺</span><div><strong>18 Titik Mata Air Alami</strong><small>Jernih dan sejuk langsung dari batuan andesit</small></div></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">PESONA ALAM SIDRAP</span>
+          <h2>Temukan Ketenangan Alam di Sumur 7 Bidadari.</h2>
+          <p class="muted">Sumur 7 Bidadari—atau yang dikenal masyarakat lokal sebagai Bujung Pitue—merupakan destinasi wisata alam, sejarah, dan budaya yang terletak di perbukitan Desa Lainungan, Kecamatan Watang Pulu, Kabupaten Sidenreng Rappang, Sulawesi Selatan.
+          </p>
+          <p class="muted">Berbeda dari sumur buatan pada umumnya, situs ini memiliki sekitar 18 titik mata air jernih yang memancar secara alami dari celah-celah bebatuan gunung andesit yang asri.</p>
+          <a class="text-link" href="#kontak">Kenali lebih dekat <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontak">
+      <div class="container contact-wrap">
+        <div><span class="eyebrow light">KONTAK & INFORMASI</span><h2>Ingin tahu rute, fasilitas, atau jadwal kunjungan?</h2><p>Kirimkan pertanyaan, saran, atau informasi rencana kunjungan Anda melalui formulir di samping. Tim pengelola Wisata Sumur 7 Bidadari siap membantu.</p></div>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Nama lengkap</label><input id="name" name="name" type="text" placeholder="Masukkan nama Anda" required>
+          <label for="email">Email (opsional)</label><input id="email" name="email" type="email" placeholder="nama@email.com">
+          <label for="message">Pesan</label><textarea id="message" name="message" rows="3" placeholder="Tuliskan pesan Anda..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Kirim Pesan <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#beranda"><div class="brand-mark">7B</div><div><strong>Wisata Sumur 7 Bidadari</strong><small>Kabupaten Sidenreng Rappang</small></div></a>
+      <p>Melestarikan pesona alam, sejarah, dan kearifan lokal Bujung Pitue</p>
+      <div class="footer-links"><a href="#profil">Profil</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Website Wisata 7 Sumur Bidadari</span><span>Dibuat untuk informasi dan pelayanan masyarakat</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto">
+    <button id="closeLightbox" aria-label="Tutup foto">×</button><img id="lightboxImage" src="" alt="Foto galeri ukuran besar">
+  </div>
+  <button id="backToTop" aria-label="Kembali ke atas">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
